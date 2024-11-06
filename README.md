@@ -3,7 +3,7 @@
 **NPM**: 2306209870 <br />
 **Kelas**: PBP C <br />
 
-# Tugas 3: Elemen Dasar Flutter
+# Tugas 7: Elemen Dasar Flutter
 ## Jelaskan apa yang dimaksud dengan stateless widget dan stateful widget, dan jelaskan perbedaan dari keduanya.
 Stateless widget merupakan jenis widget dalam framework Flutter tidak menyimpan perubahan data selama aplikasi berjalan, sehingga tampilannya akan tetap sama setiap kali widget diperbarui. Di sisi lain, stateful widget merupakan jenis widget yang dapat penyimpanan data terbaru yang memungkinkan tampilannya untuk diperbarui sesuai dengan interaksi pengguna.
 
