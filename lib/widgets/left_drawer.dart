@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:the_goods_place/screens/list_productentry.dart';
 import 'package:the_goods_place/screens/menu.dart';
 import 'package:the_goods_place/screens/createproduct_form.dart';
 
@@ -61,6 +62,19 @@ class LeftDrawer extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) => const ProductFormPage(),
+                  )
+              );
+            },
+          ),
+          ListTile(
+            leading: const Icon(Icons.shopping_cart_outlined),
+            title: const Text('See Product'),
+            // Bagian redirection ke ProductFormPage
+            onTap: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const ProductPage(),
                   )
               );
             },
